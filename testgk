@@ -9,7 +9,7 @@ def parse_input():
         s = line.strip()
         if s:
             lines.append(s)
-        if len(lines) >= 7:
+        if len(lines) >= 9:
             break
     if len(lines) < 9:
         print("Provide 9 non-empty lines representing the puzzle.")
